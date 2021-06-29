@@ -1,0 +1,41 @@
+{
+	"production": false,
+	"web": {
+		"address": "127.0.0.1",
+		"port": 80
+	},
+	"token": "bot token",
+	"perms": {
+		"member": {
+			"channels": [ "member channel" ],
+			"roles": [],
+			"members": []
+		},
+		"staff": {
+			"channels": [ "staff channel" ],
+			"roles": [ "general staff role" ],
+			"members": []
+		},
+		"helper": {
+			"channels": [],
+			"roles": [ "helper role" ],
+			"members": []
+		},
+		"mod": {
+			"channels": [],
+			"roles": [ "mod role" ],
+			"members": []
+		},
+		"admin": {
+			"channels": [],
+			"roles": [ "admin role" ],
+			"members": []
+		},
+		"owner": {
+			"channels": [],
+			"roles": [ "owner role" ],
+			"members": []
+		}
+	},
+	"log": "736376378353516634"
+}
