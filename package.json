@@ -1,0 +1,22 @@
+{
+	"name": "chatutils",
+	"description": "woah",
+	"version": "5.0.0",
+	"main": "Server.js",
+	"scripts": {
+		"start": "node Server.js"
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"discord.js": "^12.3.1",
+		"fastify": "^3.15.1",
+		"fastify-static": "^4.2.0",
+		"fastify-websocket": "^3.2.0",
+		"google-closure-compiler": "^20201006.0.0",
+		"node-fetch": "^2.6.1",
+		"sqlite3": "^5.0.2",
+		"sys-nodehttp": "^1.5.1",
+		"terser": "^5.6.0",
+		"webpack": "^5.37.0"
+	}
+}
