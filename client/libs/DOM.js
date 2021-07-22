@@ -1,6 +1,6 @@
 'use strict';
 
-class DOM {
+class DOMUtils {
 	constructor(){
 		this.sanatize_buffer = this.add_ele('div', document.body, { style: 'display: none' });
 	}
@@ -100,4 +100,4 @@ class DOM {
 	}
 };
 
-module.exports = new DOM();
+module.exports = new DOMUtils();
